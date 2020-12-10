@@ -1,0 +1,51 @@
+body {
+    background: #000000;
+    border: 15px double #FFFFFF;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #990099;
+    border-style: double;
+    border: 2px solid #990099;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #0000FF;
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+    font-family: 'Goldman', cursive;
+}
+
+a,
+li,
+p {
+    color: #FFBF00;
+    font-family: 'Syne Mono', monospace;
+}
+
+.videogames,
+.phone,
+.wallet,
+.headphones {
+    width: 225px;
+    height: 400px;
+}
+
+.column {
+    float: left;
+    width: 257px;
+    padding: 2px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
